@@ -1,172 +1,178 @@
 {
-  "HorizonLayout":[
-    {
-      "image":"https://i.imgur.com/qcev9BL.png",
-      "showLogo":true,
-      "layout":"logo",
-      "showSearch":true,
-      "showMenu":true
-    },
-    {
-      "wrap":false,
-      "line":false,
-      "layout":"category",
-      "size":1,
-      "items":[
-        {
-          "originalColor":false,
-          "colors":["#3CC2BF",
-            "#3CC2BF"],
-          "image":"https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
-          "showText":false,
-          "category":12
-        },
-        {
-          "colors":["#3E6AB5",
-            "#3E6AB5"],
-          "category":8,
-          "image":"assets/icons/categories/ic_dress.png"
-        },
-        {
-          "colors":["#53A2CC",
-            "#53A2CC"],
-          "category":3,
-          "image":"assets/icons/categories/ic_shorts.png"
-        },
-        {
-          "category":4,
-          "image":"assets/icons/categories/ic_glasses.png",
-          "colors":["#53688A",
-            "#53688A"]
-        },
-        {
-          "image":"assets/icons/categories/ic_tie.png",
-          "category":6,
-          "colors":["#43506A",
-            "#43506A"]
-        },
-        {
-          "category":5,
-          "image":"assets/icons/categories/ic_panties.png",
-          "colors":["#12B58C",
-            "#12B58C"]
-        }
-      ],
-      "radius":50,
-      "type":"icon"
-    },
-    {
-      "showNumber":false,
-      "autoPlay":false,
-      "design":"default",
-      "isSlider":true,
-      "showBackGround":true,
-      "items":[
-        {
-          "category":7,
-          "image":"https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
-          "padding":15
-        },
-        {
-          "image":"https://user-images.githubusercontent.com/1459805/60091575-1f12ca80-976f-11e9-962c-bdccff60d143.png",
-          "padding":15,
-          "category":8
-        },
-        {
-          "padding":15,
-          "product":30,
-          "image":"https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png"
-        }
-      ],
-      "radius":2,
-      "layout":"bannerImage"
-    },
-    {
-      "items":[
-        {
-          "image":"https://user-images.githubusercontent.com/1459805/59846820-12672e80-938b-11e9-8fa6-b331b7db331d.png",
-          "padding":5,
-          "url":"https://inspireui.com"
-        }
-      ],
-      "layout":"bannerImage"
-    },
-    {
-      "layout":"bannerImage",
-      "items":[
-        {
-          "padding":5,
-          "category":9,
-          "image":"https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png"
-        },
-        {
-          "category":2,
-          "featured":true,
-          "image":"https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
-          "padding":5
-        }
-      ]
-    }
-  ],
-  "Setting":{
-    "MainColor":"#1DE9B6",
-    "ProductListLayout":"list",
-    "StickyHeader":false,
-    "ProductDetail":"simpleType"
-  },
-  "TabBar":[
-    {
-      "data":"PCEtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gICBVbnRpdGxlZCBkZXNpZ24tMTA4MHgxOTIwICAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tPg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIGJhbm5lcnNuYWNrX2VtYmVkID0geyJoYXNoIjoiYnQzcXY1NTVoIiwid2lkdGgiOjEwODAsImhlaWdodCI6MTkyMCwidCI6MTYwMzY1NDAxOSwidXNlcklkIjozOTY1NTIzOSwicmVzcG9uc2l2ZSI6dHJ1ZSwidHlwZSI6Imh0bWw1In07DQo8L3NjcmlwdD4NCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii8vY2RuLmJhbm5lcnNuYWNrLmNvbS9pZnJhbWUvZW1iZWQuanMiPjwvc2NyaXB0Pg==",
-      "pos":100,
-      "categoryLayout":"sideMenu",
-      "categories":["12"],
-      "showChat":true,
-      "icon":"assets/icons/tabs/icon-home.png",
-      "layout":"home"
-    },
-    {
-      "categories":["12"],
-      "images":["briefcase"],
-      "icon":"assets/icons/tabs/icon-category.png",
-      "categoryLayout":"animation",
-      "layout":"category",
-      "pos":200
-    },
-    {
-      "layout":"search",
-      "pos":300,
-      "icon":"assets/icons/tabs/icon-search.png"
-    },
-    {
-      "icon":"assets/icons/tabs/icon-cart2.png",
-      "layout":"cart",
-      "pos":400
-    },
-    {
-      "pos":500,
-      "showChat":true,
-      "layout":"profile",
-      "icon":"assets/icons/tabs/icon-user.png"
-    }
-  ],
-  "Drawer":{
-    "logo":"https://i.imgur.com/HYsgxSw.png",
-    "background":"https://i.imgur.com/tcl2X8w.png",
-    "items":[
-      {
-        "type":"home",
-        "show":true
-      },
-      {
-        "type":"blog",
-        "show":false
-      },
-      {
-        "type":"login",
-        "show":true
-      },
-      {
-        "type":"category",
-        "show":true
-      }
-    ]}}
+"HorizonLayout":[
+{
+"showMenu":true,
+"image":"https://i.imgur.com/qcev9BL.png",
+"showSearch":true,
+"layout":"logo",
+"showLogo":true
+},
+{
+"type":"icon",
+"wrap":false,
+"line":false,
+"items":[
+{
+"originalColor":false,
+"showText":false,
+"category":12,
+"colors":["#3CC2BF",
+"#3CC2BF"],
+"image":"https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png"
+},
+{
+"colors":["#3E6AB5",
+"#3E6AB5"],
+"image":"assets/icons/categories/ic_dress.png",
+"category":8
+},
+{
+"category":3,
+"colors":["#53A2CC",
+"#53A2CC"],
+"image":"assets/icons/categories/ic_shorts.png"
+},
+{
+"category":4,
+"colors":["#53688A",
+"#53688A"],
+"image":"assets/icons/categories/ic_glasses.png"
+},
+{
+"category":6,
+"image":"assets/icons/categories/ic_tie.png",
+"colors":["#43506A",
+"#43506A"]
+},
+{
+"colors":["#12B58C",
+"#12B58C"],
+"category":5,
+"image":"assets/icons/categories/ic_panties.png"
+}
+],
+"layout":"category",
+"radius":50,
+"size":1
+},
+{
+"showBackGround":true,
+"layout":"bannerImage",
+"items":[
+{
+"image":"https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
+"padding":15,
+"category":7
+},
+{
+"image":"https://user-images.githubusercontent.com/1459805/60091575-1f12ca80-976f-11e9-962c-bdccff60d143.png",
+"category":8,
+"padding":15
+},
+{
+"product":30,
+"padding":15,
+"image":"https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png"
+}
+],
+"radius":2,
+"design":"default",
+"showNumber":false,
+"autoPlay":false,
+"isSlider":true
+},
+{
+"layout":"bannerImage",
+"items":[
+{
+"image":"https://user-images.githubusercontent.com/1459805/59846820-12672e80-938b-11e9-8fa6-b331b7db331d.png",
+"padding":5,
+"url":"https://inspireui.com"
+}
+]
+},
+{
+"items":[
+{
+"category":9,
+"image":"https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
+"padding":5
+},
+{
+"padding":5,
+"featured":true,
+"image":"https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
+"category":2
+}
+],
+"layout":"bannerImage"
+}
+],
+"Setting":{
+"MainColor":"#4CAF50",
+"ProductListLayout":"list",
+"StickyHeader":false,
+"ProductDetail":"simpleType"
+},
+"TabBar":[
+{
+"categories":["12"],
+"pos":100,
+"layout":"home",
+"data":"",
+"showChat":true,
+"categoryLayout":"sideMenu",
+"icon":"assets/icons/tabs/icon-home.png"
+},
+{
+"categoryLayout":"animation",
+"pos":200,
+"images":["briefcase"],
+"layout":"category",
+"categories":["12"],
+"icon":"assets/icons/tabs/icon-category.png"
+},
+{
+"icon":"assets/icons/tabs/icon-search.png",
+"layout":"search",
+"pos":300
+},
+{
+"pos":400,
+"icon":"assets/icons/tabs/icon-cart2.png",
+"layout":"cart"
+},
+{
+"pos":500,
+"icon":"assets/icons/tabs/icon-user.png",
+"showChat":true,
+"layout":"profile"
+},
+{
+"layout":"html",
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"data":"",
+"pos":569,
+"showChat":false
+}
+],
+"Drawer":{
+"logo":"assets/images/logo.png",
+"items":[
+{
+"type":"home",
+"show":true
+},
+{
+"type":"blog",
+"show":true
+},
+{
+"type":"login",
+"show":true
+},
+{
+"type":"category",
+"show":true
+}
+]}}
